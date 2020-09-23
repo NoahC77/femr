@@ -2,9 +2,15 @@ Noah Castetter
 nbc170001@utdallas.edu
 
 a)1,677 commits
+
 b)
+
 c) Git log shows the commit history of the current branch of the git repository. Git status shows what changes are staged for commit and tells you information about the differences that have been added, but not commited.
-d) Untracked files are not tracked by Git, meaning its not commited or stagesd for commit. A file may be unstaged, but tracked. For example let there be a file called "file.txt" which has been cloned and has been changed, however none of the changes have been staged for commit. In this instance file.txt is unstaged, but tracked.
-e)
+
+d) Untracked Files are anything in the working git directory that aren't in the last commit and not in the staging area. Unstaged files may be present in the last commit, however may not be staged.
+a commit is a snapshot.
+
+e) git checkout switches branches or restore working tree files. git reset is used to unstages changes. Git checkout switches branches while git reset unstages changes, its the opposite of git add.
+
 f)
 
